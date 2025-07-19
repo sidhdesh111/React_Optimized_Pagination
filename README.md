@@ -1,16 +1,27 @@
-<<<<<<< HEAD
-# React + Vite
+# Product Pagination (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React component that fetches and displays products from the [DummyJSON API](https://dummyjson.com/) with client-side pagination controls. It includes next/previous buttons and dynamic pagination with ellipsis for large page numbers.
 
-Currently, two official plugins are available:
+## 📦 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches products using the DummyJSON API.
+- Displays paginated product thumbnails and titles.
+- Pagination includes:
+  - Dynamic page buttons
+  - Ellipsis for large datasets
+  - Next/Previous navigation
+  - Current page highlight
 
-## Expanding the ESLint configuration
+## 🧩 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# React_Optimized_Pagination
->>>>>>> 0963bb7 (Initial commit)
+- React (Hooks: `useState`, `useEffect`, `useCallback`, `useMemo`)
+- JavaScript (ES6+)
+- CSS for styling (assumed)
+
+## 📁 Project Structure
+
+1. **Clone the Repository** (if applicable)
+
+   ```bash
+   git clone https://github.com/sidhdesh111/React_Optimized_Pagination.git
+   cd product-pagination
