@@ -1,0 +1,79 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.count_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.count_button {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.count_button button {
+  padding-inline: 2rem;
+  padding-block: 0.5rem;
+  outline: none;
+  border: none;
+  background: #000;
+  font-size: 20px;
+  color: #fff;
+}
+
+.title {
+  text-align: center;
+}
+
+.product_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.product_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+  background: #222;
+}
+
+.product_img img {
+  width: 140px;
+}
+
+.product_item h2 {
+  color: #fff;
+  font-size: 13px;
+}
+
+.pagination_div {
+  padding-block: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pagination_div button {
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.pagination_div .selected_button {
+  background: #000;
+  color: #fff;
+}
